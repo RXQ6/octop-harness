@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Bundled provider templates: iFlytek Astron MaaS Token Plan preset
+  `iflytek-astron-token-plan` (Spark-X2.5 first; Kimi-K2.6 and Qwen3.5/3.6 marked
+  image-capable), with an `iflytek.svg` logo.
+
 ### Fixed
 
 - Streamed content blocks (Anthropic thinking / text, OpenAI Responses) no
