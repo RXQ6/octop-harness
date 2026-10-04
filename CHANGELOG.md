@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-10-03
+
+### 新增
+
+- PII 可识别大陆手机号与 18 位居民身份证。
+- 子树专家支持 `explicit_virtual_paths`，由调用方自行转换虚拟路径。
+- 新增讯飞星辰 Token Plan 供应商预设。
+
+### 修复
+
+- 子 Agent 仅在真正重名时告警。
+- 模型和路径错误回传给 Agent，不再整轮中止。
+- 修复 S3 / Postgres workspace 与 deepagents 0.7 的兼容，文件不再摊平到存储根。
+- Docker 每次执行刷新全局环境。
+- 流式 thinking / text 块不再导致协议投影崩溃。
+
+### 变更
+
+- 发版时同步检查多语言 README 版本。
 ### Added
 
 - PII protection detects mainland China mobile numbers (common 13-19
